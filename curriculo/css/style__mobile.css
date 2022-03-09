@@ -1,0 +1,126 @@
+
+/*
+############################
+CSS dispositivos Moveis
+############################
+*/
+
+/* CSS para dispositivos mobiles */
+@media only screen and (max-width: 620px) {
+  
+  body{
+    background-image: url("../img/back__mobile.png");
+    background-repeat: no-repeat;
+    background-size: auto; 
+    position: absolute;
+    overflow: auto;
+  }
+    header{
+      background-color:rgb(0, 0, 0);
+      width: 100%;
+      height: auto;
+  }
+    .img__logo{
+      width: 100px;
+      height: auto;
+      margin: 8px 0px 0px 0px;
+    }
+    .img__perfil{
+        width:120px;
+        height: auto;
+        margin-top: 10px;
+        
+      }
+    
+  .box__externo__mobile{
+    display: block;
+  }
+  
+  .box__interno__mobile{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .icones__sociais{
+      width: 25px;
+      height: auto;
+  }
+  h1,h3,h5{
+    color:rgb(161, 152, 152);
+    margin-bottom: 3px;
+    font-family: 'Questrial';
+    }
+
+
+  .p__titulo{
+    color:rgb(161, 152, 152);
+    margin: 10px 0px 10px 10px;
+    font-family: 'Questrial';
+    font-size: 12px;
+    margin:2px;
+    }
+    .p__texto{
+    color:rgb(161, 152, 152);
+    font-family: 'Questrial';
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 5px;  
+    }
+    .p__subtitulo{
+    color:rgb(161, 152, 152);
+    font-family: 'Questrial';
+    font-weight: bold;
+    font-size: 11px;
+    }
+    .p__texto__italico{
+    color:rgb(161, 152, 152);
+    font-family: 'Questrial';
+    font-style: italic;
+    font-size: 11px;
+    }
+
+  /*Hover icones sociais*/
+  
+  a.facebook:hover{
+      content: url(../img/facebook_logo.png);
+    width: 25px;
+    height: auto;
+  }
+  a.instagram:hover{
+      content: url(../img/instagram_logo.png);
+    width: 25px;
+    height: auto;
+  }
+  a.twitter:hover{
+      content: url(../img/twitter_logo.png);
+    width: 25px;
+    height: auto;
+  }
+  a.linkedin:hover{
+      content: url(../img/linkedin_logo.png);
+    width: 25px;
+    height: auto;
+  }
+  a.github:hover{
+      content: url(../img/GitHub_logo_dark.png);
+    width: 25px;
+    height: auto;
+  }
+  a.whatsapp:hover{
+      content: url(../img/Whatsapp_logo.png);
+    width: 25px;
+    height: auto;
+  }
+
+  footer{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+  }
+  .p__footer{
+    color:#fff;
+    margin: 10px;
+    font-family: 'Questrial';
+    font-size: 10px;
+  }
+  }
